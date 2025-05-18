@@ -1,40 +1,41 @@
-# 🚚 DeliveryApp::TrustScore
+# 🩺 Medical Licensing Board Module (Move/Aptos)
 
-A Move module on the Aptos blockchain that manages trust scores for delivery personnel. It tracks the number of deliveries, positive reviews, and dynamically updates the trust score based on customer feedback.
+A Move module deployed on the Aptos blockchain for managing trust and credibility of medical professionals. The system tracks licenses, successful treatments, and updates trust scores based on patient reviews and professional performance.
 
 ---
 
 ## 🧠 Features
 
-- 📥 Register delivery agents  
-- ✅ Log completed deliveries  
-- ⭐ Update trust score based on customer reviews  
-- 📊 Track total deliveries and positive reviews  
+- 📝 Register medical professionals  
+- ✅ Log completed treatments  
+- ⭐ Update trust score based on patient feedback  
+- 📊 Track total treatments and positive outcomes  
 
 ---
 
 ## ⚙️ Core Functions
 
-### `register_delivery_person(account: &signer)`
-Registers a new delivery agent with:
+### `register_medical_professional(account: &signer)`
+Registers a new medical professional with:
 - `trust_score: 50`
-- `total_deliveries: 0`
+- `total_treatments: 0`
 - `positive_reviews: 0`
 
 Throws error if already registered.
 
 ---
 
-### `complete_delivery(owner_addr: address, positive_review: bool)`
-Updates the delivery stats and adjusts the trust score:
-- +5 for positive review (max 100)
-- -3 for negative review (min 0)
+### `record_treatment(doctor_addr: address, successful: bool)`
+Updates the treatment stats and adjusts the trust score:
+- ➕ +5 for successful treatment (max 100)  
+- ➖ -3 for unsuccessful treatment (min 0)  
 
 ---
 
 ## 📄 Deployment Info
 
-- **Module Name:** `TrustScore`
+- **Project Name:** Medical Licensing Board Module (Move/Aptos)  
+- **Module Name:** TrustScore  
 - **Contract Address:** `0xe7ee73b1f80a0c8a7b6449a5648124f2d2fa022dae8d3eb8677b81e7cdfee5bf`
 
 🔗 [View on Aptos Explorer](https://explorer.aptoslabs.com/txn/0xe7ee73b1f80a0c8a7b6449a5648124f2d2fa022dae8d3eb8677b81e7cdfee5bf?network=devnet)
@@ -43,16 +44,16 @@ Updates the delivery stats and adjusts the trust score:
 
 ## 📸 Deployment Proof
 
-![image](https://github.com/user-attachments/assets/0a3ed28d-8471-46ba-8d5b-f4b5f8555edb)
+![image](https://github.com/user-attachments/assets/3a1b9202-80ea-4f10-8e05-efda3d605351)
 
 
-_This screenshot confirms successful deployment on Aptos Devnet._
+_This image confirms the successful contract deployment of the Medical Licensing Board Module on Aptos Devnet._
 
 ---
 
 ## 🚀 Example Usage
 
 ```move
-register_delivery_person(&signer);
-complete_delivery(@addr, true);  // Positive review
-complete_delivery(@addr, false); // Negative review
+register_medical_professional(&signer);
+record_treatment(@doctor_addr, true);  // Successful treatment
+record_treatment(@doctor_addr, false); // Unsuccessful treatment
