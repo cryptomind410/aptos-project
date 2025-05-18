@@ -39,4 +39,21 @@ struct LicenseRegisteredEvent has drop, store {
     license_id: String,
     timestamp: u64
 }
+## 📤 Deployment Info
+
+- 📜 Contract Address: `0x6ea7...37f1`  
+- 🔁 Published via: `code::publish_package_txn`  
+- ✅ Status: Success  
+- 🔗 Transaction Version: `23623477`  
+- 🧾 Transaction Hash:  
+  `0xe7ee73b1f80a0c8a7b6449a5648124f2d2fa022dae8d3eb8677b81e7cdfee5bf`
+
+---
+
+## 🖼 Image Proof
+
+Below is a screenshot of the transaction confirming successful contract publishing to the Aptos devnet:
+
+![Contract Deployment Proof](./e59be3a8-9a87-4387-837c-85d374573977.png)
+
 
