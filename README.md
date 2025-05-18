@@ -51,6 +51,8 @@ struct LicenseRegisteredEvent has drop, store {
 ---
 
 ## 🖼 Image Proof
+![image](https://github.com/user-attachments/assets/afb0c1f1-5814-4bc7-8ed6-69bfdb2193d6)
+
 
 Below is a screenshot of the transaction confirming successful contract publishing to the Aptos devnet:
 
