@@ -1,6 +1,6 @@
 # 🩺 Medical Licensing Board Module (Move/Aptos)
 
-A Move module deployed on the Aptos blockchain for managing trust and credibility of medical professionals. The system tracks licenses, successful treatments, and updates trust scores based on patient reviews and professional performance.
+A Move module deployed on the Aptos blockchain for managing trust and credibility of medical professionals. The system tracks licenses, successful treatments, and updates trust scores based on patient reviews and professional performance. Great solution.
 
 ---
 
