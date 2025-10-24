@@ -40,7 +40,7 @@ Updates the treatment stats and adjusts the trust score:
 
 🔗 [View on Aptos Explorer](https://explorer.aptoslabs.com/txn/0xe7ee73b1f80a0c8a7b6449a5648124f2d2fa022dae8d3eb8677b81e7cdfee5bf?network=devnet)
 
----
+------
 
 ## 📸 Deployment Proof
 
