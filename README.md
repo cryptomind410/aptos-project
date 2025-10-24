@@ -49,7 +49,7 @@ Updates the treatment stats and adjusts the trust score:
 
 _This image confirms the successful contract deployment of the Medical Licensing Board Module on Aptos Devnet._
 
----
+------
 
 ## 🚀 Example Usage
 
