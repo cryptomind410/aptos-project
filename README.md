@@ -57,3 +57,5 @@ _This image confirms the successful contract deployment of the Medical Licensing
 register_medical_professional(&signer);
 record_treatment(@doctor_addr, true);  // Successful treatment
 record_treatment(@doctor_addr, false); // Unsuccessful treatment
+
+```
